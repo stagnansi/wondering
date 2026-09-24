@@ -40,8 +40,8 @@ Dokumen ini merangkum status proyek, keputusan desain, dan hal-hal yang perlu di
 
 ## TODO
 
-- [ ] Buat repo GitHub `stagnansi/wondering`
-- [ ] Rename branch `master` → `main`
+- [x] Buat repo GitHub `stagnansi/wondering`
+- [x] Rename branch `master` → `main`
 - [ ] Setup Cloudflare Pages
 - [ ] Favicon dan share image
 - [ ] Custom domain (opsional)

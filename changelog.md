@@ -5,6 +5,14 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-09-25
+
+### Added
+- Repo GitHub: https://github.com/stagnansi/wondering (public)
+- Git identity lokal: stagnansi / wondering@nordra.me
+- Branch di-rename `master` → `main`
+- Commit pertama + push ke origin/main
+
 ## [0.1.0] - 2026-09-25
 
 ### Added
