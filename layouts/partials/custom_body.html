@@ -1,0 +1,29 @@
+<button id="back-to-top" aria-label="Kembali ke atas" hidden>↑</button>
+
+<script>
+  (function () {
+    var btn = document.getElementById('back-to-top');
+    if (!btn) return;
+
+    function isScrollable() {
+      var doc = document.documentElement;
+      return doc.scrollHeight > doc.clientHeight;
+    }
+
+    function toggle() {
+      if (isScrollable() && window.scrollY > 0) {
+        btn.hidden = false;
+      } else {
+        btn.hidden = true;
+      }
+    }
+
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', toggle, { passive: true });
+    window.addEventListener('resize', toggle);
+    toggle();
+  })();
+</script>

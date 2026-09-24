@@ -8,6 +8,7 @@
   :root {
     --font-main: 'InterDisplay', 'InterVariable', Inter, sans-serif;
     --font-secondary: 'InterVariable', Inter, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
     --link-color: #0000ff;
     --visited-color: #0000ff;
     font-feature-settings: 'liga' 1, 'calt' 1;
@@ -28,6 +29,74 @@
   code,
   .highlight pre,
   .code pre {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
+  }
+
+  header .title h2 {
+    font-weight: 900;
+  }
+
+  content ul:not(.blog-posts) {
+    list-style: none;
+    padding-left: 1.2em;
+  }
+
+  content ul:not(.blog-posts) li::before {
+    content: "→";
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -1.2em;
+    color: var(--text-color);
+  }
+
+  footer {
+    text-align: left;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  footer .footer-year {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  footer .footer-sep {
+    color: var(--text-color);
+    opacity: 0.5;
+  }
+
+  footer .footer-brand {
+    font-family: var(--font-main);
+    font-weight: 900;
+  }
+
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 0;
+    border: 1px solid var(--heading-color);
+    background-color: var(--background-color);
+    color: var(--heading-color);
+    font-family: var(--font-main);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 100;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #back-to-top[hidden] {
+    display: none;
+  }
+
+  #back-to-top:hover {
+    background-color: var(--heading-color);
+    color: var(--background-color);
   }
 </style>
