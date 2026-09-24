@@ -1,0 +1,25 @@
+baseURL = "https://wondering.pages.dev"
+theme = "hugo-bearblog"
+title = "Wondering®"
+author = "stagnansi"
+copyright = "Copyright © 2026, Wondering®."
+locale = "id-ID"
+timeZone = "Asia/Jakarta"
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+
+[params]
+  description = "Ruang untuk hal-hal yang belum selesai dipikirkan."
+  title = "Wondering®"
+  enablePostNavigator = true
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
