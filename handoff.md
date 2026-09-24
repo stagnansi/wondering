@@ -23,15 +23,34 @@ Dokumen ini merangkum status proyek, keputusan desain, dan hal-hal yang perlu di
 1. Menu didefinisikan via front matter (`menu = "main"`), bukan `[menu]` di `hugo.toml` — mengikuti konvensi tema.
 2. `timeZone = "Asia/Jakarta"` — wajib, karena Hugo baca tanggal sebagai UTC (kalau tidak, artikel hari ini dianggap future).
 3. Override `layouts/_default/baseof.html` untuk title browser: Home cuma tampil `Wondering®`, halaman lain `Judul | Wondering®`.
-4. Artikel mengikuti gaya herman.bearblog.dev: ~500-700 kata, satu alur, paragraf pendek, tanpa heading di dalam artikel, tanpa em dash.
-5. Struktur tema tidak diubah. Kustomisasi hanya via front matter, `hugo.toml`, dan override di `layouts/`.
+4. Artikel mengikuti gaya herman.bearblog.dev: ~500-700 kata, satu alur, paragraf pendek, tanpa heading di dalam artikel, tanpa em dash di konten website.
+5. Struktur tema tidak diubah. Kustomisasi via front matter, `hugo.toml`, dan override di `layouts/partials/`.
 
 ## Aturan Penulisan
 
 - Bahasa Indonesia
-- Tanpa em dash
+- Tanpa em dash di konten website
 - Judul artikel pendek
 - Panjang ~500-700 kata
+
+## Kustomisasi Visual
+
+Semua di `layouts/partials/`:
+
+- `custom_head.html` — font, warna, arrow back-to-top, footer CSS, list bullet
+- `custom_body.html` — tombol back-to-top + JS
+- `footer.html` — override footer
+- `post_navigator.html` — override navigator prev/next
+
+Detail:
+
+- **Font**: InterDisplay (heading), InterVariable (body), IBM Plex Mono (mono)
+- **Link**: `#0000ff` (link & visited)
+- **Dark mode**: dinonaktifkan, selalu light
+- **Footer**: `2026 — Wondering®` (Wondering link ke Bluesky, weight 900)
+- **Back-to-top**: kotak fixed pojok kanan bawah, muncul saat scrollable & sudah di-scroll
+- **List bullet**: arrow `→` (kecuali `.blog-posts`)
+- **Post navigator**: `← Prev Post` / `Next Post →`
 
 ## Kontak
 
@@ -43,7 +62,7 @@ Dokumen ini merangkum status proyek, keputusan desain, dan hal-hal yang perlu di
 - [x] Buat repo GitHub `stagnansi/wondering`
 - [x] Rename branch `master` → `main`
 - [x] Setup Cloudflare Pages
-- [ ] Favicon dan share image
+- [x] Favicon
 - [ ] Custom domain (opsional)
 
 ## Konfigurasi Cloudflare Pages
