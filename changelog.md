@@ -5,6 +5,17 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-09-25
+
+### Added
+- og:image untuk preview di sosial media (`static/images/share.png`, 1200x630)
+- Param `images` di `hugo.toml`
+
+### Fixed
+- `meta name=title` dan `og:title` untuk Home sekarang "Wondering®" (sebelumnya "Home")
+- `lineNos` diubah ke `false`
+- Tambah `color-scheme: light` untuk konsistensi browser UI
+
 ## [0.1.3] - 2026-09-25
 
 ### Added
@@ -16,7 +27,7 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 - Warna link & visited: `#0000ff`
 - Dark mode dinonaktifkan (selalu light)
 - Footer kustom: `2026 — Wondering®` dengan link ke Bluesky
-- Tombol back-to-top fixed di pojok kanan bawah (muncul saat scrollable & sudah di-scroll)
+- Tombol back-to-top fixed di pojok kanan bawah
 - Post navigator pakai arrow `←` / `→`, label `Prev Post` / `Next Post`
 - List bullet jadi arrow `→` (kecuali `.blog-posts`)
 - Judul blog di header weight 900

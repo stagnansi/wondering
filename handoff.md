@@ -51,6 +51,7 @@ Detail:
 - **Back-to-top**: kotak fixed pojok kanan bawah, muncul saat scrollable & sudah di-scroll
 - **List bullet**: arrow `→` (kecuali `.blog-posts`)
 - **Post navigator**: `← Prev Post` / `Next Post →`
+- **og:image**: `static/images/share.png` (1200x630) untuk preview di sosial media
 
 ## Kontak
 
