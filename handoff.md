@@ -57,14 +57,6 @@ Detail:
 - Email: wondering@nordra.me
 - Bluesky: @wondering.nordra.me
 
-## TODO
-
-- [x] Buat repo GitHub `stagnansi/wondering`
-- [x] Rename branch `master` → `main`
-- [x] Setup Cloudflare Pages
-- [x] Favicon
-- [ ] Custom domain (opsional)
-
 ## Konfigurasi Cloudflare Pages
 
 - **Project name**: wondering
