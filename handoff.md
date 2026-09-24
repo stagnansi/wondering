@@ -42,6 +42,19 @@ Dokumen ini merangkum status proyek, keputusan desain, dan hal-hal yang perlu di
 
 - [x] Buat repo GitHub `stagnansi/wondering`
 - [x] Rename branch `master` → `main`
-- [ ] Setup Cloudflare Pages
+- [x] Setup Cloudflare Pages
 - [ ] Favicon dan share image
 - [ ] Custom domain (opsional)
+
+## Konfigurasi Cloudflare Pages
+
+- **Project name**: wondering
+- **Production branch**: main
+- **Build command**: hugo --minify
+- **Build output directory**: public
+- **Framework preset**: Hugo
+- **Environment variable**: HUGO_VERSION=0.166.0 (wajib, match versi Termux)
+
+### Catatan
+
+Cloudflare default memakai Hugo versi lebih lama (0.147.x) yang tidak mengenal `.Site.Language.Locale`. Karena itu `HUGO_VERSION` di-pin ke 0.166.0.

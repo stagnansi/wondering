@@ -5,6 +5,12 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-09-25
+
+### Added
+- Deploy Cloudflare Pages: https://wondering.pages.dev
+- Environment variable `HUGO_VERSION=0.166.0` (match versi Termux, menghindari error `.Site.Language.Locale`)
+
 ## [0.1.1] - 2026-09-25
 
 ### Added
