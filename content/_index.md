@@ -1,5 +1,6 @@
 +++
-title = "Home"
+title = "Wondering®"
+linkTitle = "Home"
 menu = "main"
 weight = 1
 +++

@@ -2,7 +2,6 @@ baseURL = "https://wondering.pages.dev"
 theme = "hugo-bearblog"
 title = "Wondering®"
 author = "stagnansi"
-copyright = "Copyright © 2026, Wondering®."
 locale = "id-ID"
 timeZone = "Asia/Jakarta"
 enableRobotsTXT = true
@@ -21,6 +20,6 @@ ignoreErrors = ["error-disable-taxonomy"]
 [markup]
   [markup.highlight]
     style = "friendly"
-    lineNos = true
+    lineNos = false
     lineNumbersInTable = false
     codeFences = true
