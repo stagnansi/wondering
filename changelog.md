@@ -5,6 +5,12 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.6] - 2026-09-25
+
+### Added
+- Artikel baru: "Ketika Peliput Jadi Berita" (2026-09-20)
+- Artikel baru: "Saya Minta AI Menulis Artikel yang Menyalahkan AI" (2026-09-24)
+
 ## [0.1.5] - 2026-09-25
 
 ### Added

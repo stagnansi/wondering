@@ -30,7 +30,7 @@ Dokumen ini merangkum status proyek, keputusan desain, dan hal-hal yang perlu di
 
 - Bahasa Indonesia
 - Tanpa em dash di konten website
-- Judul artikel pendek
+- Judul artikel pendek, konteks-spesifik (bukan judul abstrak)
 - Panjang ~500-700 kata
 
 ## Kustomisasi Visual
