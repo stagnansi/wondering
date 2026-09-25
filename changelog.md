@@ -5,6 +5,18 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.5] - 2026-09-25
+
+### Added
+- Artikel baru: "GitHub dan Kode Kedua"
+- Home menampilkan 3 tulisan terbaru + link "Lihat semua"
+
+### Changed
+- Footer link dari Bluesky ke X @wondddering
+- Arrow (ul li, "Lihat semua", post navigator) pakai heading color
+- Post navigator: arrow tidak kena hover underline
+- Tanggal "Iklan di ChatGPT" jadi 2026-09-23
+
 ## [0.1.4] - 2026-09-25
 
 ### Added

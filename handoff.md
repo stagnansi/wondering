@@ -47,7 +47,7 @@ Detail:
 - **Font**: InterDisplay (heading), InterVariable (body), IBM Plex Mono (mono)
 - **Link**: `#0000ff` (link & visited)
 - **Dark mode**: dinonaktifkan, selalu light
-- **Footer**: `2026 — Wondering®` (Wondering link ke Bluesky, weight 900)
+- **Footer**: `2026 — Wondering®` (Wondering link ke X @wondddering, weight 900)
 - **Back-to-top**: kotak fixed pojok kanan bawah, muncul saat scrollable & sudah di-scroll
 - **List bullet**: arrow `→` (kecuali `.blog-posts`)
 - **Post navigator**: `← Prev Post` / `Next Post →`
