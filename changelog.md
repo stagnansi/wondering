@@ -5,6 +5,18 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.8] - 2026-09-25
+
+### Added
+- Font smoothing (antialiased)
+- Underline skip-ink dan text-underline-position
+- `:focus-visible` outline untuk keyboard navigation
+- `prefers-reduced-motion` untuk disable animasi & smooth scroll
+- Empty state blog yang lebih manusiawi
+
+### Changed
+- Aturan penulisan: tambah smart punctuation (kutip lengkung, elipsis, en dash)
+
 ## [0.1.7] - 2026-09-25
 
 ### Changed
