@@ -1,0 +1,3 @@
+{{- $text := .Text | string -}}
+{{- $isURL := or (strings.HasPrefix $text "http://") (strings.HasPrefix $text "https://") -}}
+<a href="{{ .Destination | safeURL }}"{{ if $isURL }} class="url-link"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>

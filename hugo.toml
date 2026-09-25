@@ -14,7 +14,6 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   description = "Ruang untuk hal-hal yang belum selesai dipikirkan."
   title = "Wondering®"
-  enablePostNavigator = true
   favicon = "images/favicon.png"
   images = ["images/share.png"]
 

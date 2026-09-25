@@ -12,5 +12,5 @@ Tidak ada tema khusus. Tidak ada target. Kadang panjang, kadang cuma satu paragr
 
 Kalau mau ngobrol:
 
-- Email: wondering@nordra.me
+- Email: [wondering@nordra.me](mailto:wondering@nordra.me)
 - Bluesky: [@wondering.nordra.me](https://bsky.app/profile/wondering.nordra.me)
