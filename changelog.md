@@ -5,6 +5,14 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.10] - 2026-09-26
+
+### Added
+
+- Setup Prettier untuk format Markdown
+- Setup Taplo untuk format TOML
+- `node_modules/` di `.gitignore`
+
 ## [0.1.9] - 2026-09-26
 
 ### Changed

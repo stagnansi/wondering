@@ -59,6 +59,13 @@ Detail:
 - **URL asli**: link yang teksnya `http(s)://...` pakai IBM Plex Mono
 - **og:image**: `static/images/share.png` (1200x630)
 
+## Tooling
+
+- **Hugo** v0.166.0+extended (via Termux)
+- **Prettier** untuk Markdown (`npx prettier --write "**/*.md"`)
+- **Taplo** untuk TOML (`taplo fmt hugo.toml`)
+- Hugo template tidak diformat otomatis (tidak ada formatter resmi)
+
 ## Kontak
 
 - Email: wondering@nordra.me
