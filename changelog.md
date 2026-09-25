@@ -5,6 +5,12 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.11] - 2026-09-26
+
+### Removed
+
+- og:image dan `static/images/share.png` (preview sosial media kembali text-only)
+
 ## [0.1.9] - 2026-09-26
 
 ### Changed

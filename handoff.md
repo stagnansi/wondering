@@ -57,7 +57,6 @@ Detail:
 - **Arrow ul li**: `→` warna link
 - **Arrow "Lihat semua"** (Home): `.arrow-heading`, warna heading
 - **URL asli**: link yang teksnya `http(s)://...` pakai IBM Plex Mono
-- **og:image**: `static/images/share.png` (1200x630)
 
 ## Kontak
 
