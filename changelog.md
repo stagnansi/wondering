@@ -5,6 +5,25 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.9] - 2026-09-26
+
+### Changed
+- Revert perubahan dari interfaces.dev (65ch, text-wrap, hover none, font smoothing, skip-ink, prefers-reduced-motion, focus-visible, empty state)
+- Back-to-top diganti versi no-JS (anchor `#top`)
+- Footer baru: `Wondering® — 2026 ↑` rata tengah, em dash samar
+- Post navigator dihapus
+- Link URL asli pakai IBM Plex Mono
+- Arrow pakai link color, `.arrow-heading` untuk Home
+
+### Removed
+- JavaScript (web sekarang zero JS)
+- `layouts/partials/custom_body.html`
+- `layouts/partials/post_navigator.html`
+- `layouts/_default/list.html`
+
+### Added
+- `layouts/_default/_markup/render-link.html` untuk deteksi URL asli
+
 ## [0.1.8] - 2026-09-25
 
 ### Added
