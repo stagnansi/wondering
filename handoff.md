@@ -46,6 +46,8 @@ Detail:
 
 - **Font**: InterDisplay (heading), InterVariable (body), IBM Plex Mono (mono)
 - **Link**: `#0000ff` (link & visited)
+- **Background**: `#fbfaf7` (cream hangat, mengurangi kontras dengan biru)
+- **Lebar baris**: 65ch
 - **Dark mode**: dinonaktifkan, selalu light
 - **Footer**: `2026 — Wondering®` (Wondering link ke X @wondddering, weight 900)
 - **Back-to-top**: kotak fixed pojok kanan bawah, muncul saat scrollable & sudah di-scroll

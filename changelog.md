@@ -5,6 +5,14 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.7] - 2026-09-25
+
+### Changed
+- Background putih diganti cream hangat (`#fbfaf7`) untuk mengurangi kontras dengan link biru
+- Lebar baris dibatasi 65ch
+- Heading pakai `text-wrap: balance`
+- Hover effect dinonaktifkan di device sentuh (`@media (hover: none)`)
+
 ## [0.1.6] - 2026-09-25
 
 ### Added
