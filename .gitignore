@@ -12,5 +12,3 @@ Thumbs.db
 # Termux
 .history
 
-# Node
-node_modules/

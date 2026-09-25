@@ -1,9 +1,0 @@
-include = ["*.toml"]
-
-[formatting]
-align_entries = false
-column_width = 100
-indent_tables = true
-indent_entries = true
-indent_string = "  "
-reorder_keys = false
