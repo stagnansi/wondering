@@ -26,6 +26,23 @@
     }
   }
 
+  body {
+    max-width: 65ch;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+  @media (hover: none) {
+    a:hover {
+      text-decoration: none;
+    }
+    .post-nav a:hover .nav-label {
+      text-decoration: none;
+    }
+  }
+
   time,
   code,
   .highlight pre,
@@ -35,14 +52,6 @@
 
   .arrow {
     color: var(--heading-color);
-  }
-
-  .post-nav a:hover {
-    text-decoration: none;
-  }
-
-  .post-nav a:hover .nav-label {
-    text-decoration: underline;
   }
 
   header .title h2 {
@@ -60,6 +69,14 @@
     width: 1.2em;
     margin-left: -1.2em;
     color: var(--heading-color);
+  }
+
+  .post-nav a:hover {
+    text-decoration: none;
+  }
+
+  .post-nav a:hover .nav-label {
+    text-decoration: underline;
   }
 
   footer {
