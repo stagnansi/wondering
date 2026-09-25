@@ -1,0 +1,9 @@
+public/
+resources/
+themes/
+node_modules/
+package-lock.json
+layouts/
+*.png
+*.jpg
+*.svg
