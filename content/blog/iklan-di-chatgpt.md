@@ -1,6 +1,6 @@
 +++
 title = "Iklan di ChatGPT"
-date = 2026-09-25
+date = 2026-09-23
 +++
 
 Beberapa hari lalu saya dapat email dari OpenAI. Isinya soal pembaruan kebijakan privasi. Ada satu bagian yang bikin saya berhenti membaca sebentar: mereka akan menampilkan iklan di ChatGPT.
