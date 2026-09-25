@@ -15,7 +15,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   description = "Ruang untuk hal-hal yang belum selesai dipikirkan."
   title = "Wondering®"
   favicon = "images/favicon.png"
-  images = ["images/share.png"]
 
 [markup]
   [markup.highlight]
