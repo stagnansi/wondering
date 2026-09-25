@@ -5,6 +5,8 @@
     var btn = document.getElementById('back-to-top');
     if (!btn) return;
 
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
     function isScrollable() {
       var doc = document.documentElement;
       return doc.scrollHeight > doc.clientHeight;
@@ -19,7 +21,8 @@
     }
 
     btn.addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      var behavior = reduceMotion.matches ? 'auto' : 'smooth';
+      window.scrollTo({ top: 0, behavior: behavior });
     });
 
     window.addEventListener('scroll', toggle, { passive: true });

@@ -27,12 +27,33 @@
     }
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
   body {
     max-width: 65ch;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
+  }
+
+  a {
+    text-decoration-skip-ink: auto;
+    text-underline-position: from-font;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
   }
 
   @media (hover: none) {
