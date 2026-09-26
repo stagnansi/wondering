@@ -5,6 +5,16 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.11] - 2026-09-26
+
+### Added
+
+- Security headers via `static/_headers`: CSP, HSTS, X-Frame-Options, Permissions-Policy
+
+### Fixed
+
+- CSP izinkan `rsms.me` di `style-src` (fix font fallback)
+
 ## [0.1.10] - 2026-09-26
 
 ### Removed

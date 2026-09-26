@@ -58,6 +58,14 @@ Detail:
 - **Arrow "Lihat semua"** (Home): `.arrow-heading`, warna heading
 - **URL asli**: link yang teksnya `http(s)://...` pakai IBM Plex Mono
 
+## Security
+
+- `static/_headers` — CSP, HSTS, X-Frame-Options, Permissions-Policy
+- CSP mengizinkan font dari `rsms.me` dan `fonts.gstatic.com`
+- Zero JavaScript
+- HTTP → HTTPS redirect otomatis (Cloudflare)
+- File sensitif (`.env`, `.git/`, dll) tidak terekspos
+
 ## Kontak
 
 - Email: wondering@nordra.me
