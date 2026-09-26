@@ -5,6 +5,19 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.13] - 2026-09-26
+
+### Added
+
+- Canonical URL di setiap halaman
+- Twitter Card meta tags
+- `robots.txt` eksplisit dengan Allow dan Sitemap
+
+### Changed
+
+- H1 per halaman: Home dari header, Blog dari list.html, artikel dari single, About dari markdown
+- Header pakai `.site-title` (div) di halaman non-Home
+
 ## [0.1.12] - 2026-09-26
 
 ### Added

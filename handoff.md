@@ -67,6 +67,14 @@ Detail:
 - File sensitif (`.env`, `.git/`, dll) tidak terekspos
 - `static/.well-known/security.txt` untuk disclosure
 
+## SEO
+
+- Satu H1 per halaman (Home: header, Blog: list.html, Artikel: single, About: markdown)
+- Canonical URL di setiap halaman
+- Twitter Card meta tags
+- `robots.txt` eksplisit dengan Allow dan Sitemap
+- Meta description dari `Site.Params.description`
+
 ## Kontak
 
 - Email: wondering@nordra.me
