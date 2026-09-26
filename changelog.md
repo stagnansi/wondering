@@ -5,6 +5,12 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.1.12] - 2026-09-26
+
+### Added
+
+- `static/.well-known/security.txt` untuk disclosure kerentanan
+
 ## [0.1.11] - 2026-09-26
 
 ### Added

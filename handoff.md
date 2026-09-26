@@ -65,6 +65,7 @@ Detail:
 - Zero JavaScript
 - HTTP → HTTPS redirect otomatis (Cloudflare)
 - File sensitif (`.env`, `.git/`, dll) tidak terekspos
+- `static/.well-known/security.txt` untuk disclosure
 
 ## Kontak
 
