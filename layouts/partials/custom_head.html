@@ -1,3 +1,8 @@
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,8 +60,14 @@
     color: var(--heading-color);
   }
 
-  header .title h2 {
+  header .title h1,
+  header .title .site-title {
+    font-family: var(--font-main);
+    color: var(--heading-color);
     font-weight: 900;
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    line-height: 1.2;
   }
 
   content ul:not(.blog-posts) {
